@@ -1,9 +1,9 @@
 ---
 - name: include os variables
-  include_vars: "{{optipng_os}}.yml"
-  when: optipng_os is defined and optipng_os != ""
+  include_vars: "{{git_os}}.yml"
+  when: git_os is defined and git_os != ""
 
 ################################################################################################
 
-- name: install optipng
-  apt: pkg={{optipng_package}} state=present update_cache=yes cache_valid_time=3600
+- name: install git
+  apt: pkg={{git_package}} state=present update_cache=yes cache_valid_time=3600

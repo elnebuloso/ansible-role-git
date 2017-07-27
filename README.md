@@ -1,6 +1,6 @@
-# Ansible Role - optipng for Linux Server
+# Ansible Role - git for Linux Server
 
-[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-optipng.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-optipng)
+[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-git.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-git)
 
 ## Requirements
 
@@ -20,7 +20,7 @@ None.
 ```
 - hosts: localhost
   roles:
-    - role: elnebuloso.rolname
+    - role: elnebuloso.git
 ```
 
 ## Dependencies
