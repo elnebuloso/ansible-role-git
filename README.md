@@ -1,6 +1,6 @@
 # Ansible Role - git for Linux Server
 
-[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-git.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-git)
+![abandoned](https://img.shields.io/badge/project-abandoned-red)
 
 ## Requirements
 
